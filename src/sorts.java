@@ -8,24 +8,24 @@ public class sorts {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int [] listFin = {4, 5, 6, 2, 1, 7, 10, 3, 8, 9};
+        int [] mainList = {4, 5, 6, 2, 1, 7, 10, 3, 8, 9};
 
-        int [] list = listFin.clone();
+        int [] list = mainList.clone();
         selectionSort(list);
         System.out.print("Selection sort: ");
         print(list);
 
-        list = listFin.clone();
+        list = mainList.clone();
         bubbleSort(list);
         System.out.print("Bubble sort: ");
         print(list);
 
-        list = listFin.clone();
+        list = mainList.clone();
         insertionSort(list);
         System.out.print("Insertion sort: ");
         print(list);
 
-        list = listFin.clone();
+        list = mainList.clone();
         shellSort(list);
         System.out.print("Shell sort: ");
         print(list);
