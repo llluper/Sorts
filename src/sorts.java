@@ -1,8 +1,4 @@
 /**
- * Created by mitchellstanford on 18/1/17.
- */
-
-/**
  *
  * @author Mitchell Stanford
  */
