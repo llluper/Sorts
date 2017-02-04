@@ -2,7 +2,7 @@
  *
  * @author Mitchell Stanford
  */
-public class sorts {
+public class Sorts {
 
     /**
      * @param args the command line arguments
@@ -32,7 +32,6 @@ public class sorts {
 
         System.out.print("Binary search - Number 3 is at index: ");
         System.out.print(binarySearch(list, 3));
-
     }
 
     public static void print(int[] list) {
